@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--toolbar action按钮只会显示图标，菜单中的action按钮只会显示文字-->
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/tab_audior_player01"
+        android:title="Backup"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/delete"
+        android:icon="@drawable/tab_btn_classification_hov"
+        android:title="Delete"
+        app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/settings"
+        android:icon="@drawable/tab_btn_mine_hov"
+        android:title="Settings"
+        app:showAsAction="never"></item>
+
+</menu>
